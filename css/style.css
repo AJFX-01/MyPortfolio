@@ -905,7 +905,7 @@ h3.my-profession
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        margin-left: -15px;
+        margin-left: -10px;
         margin-right: -15px;
         position: relative;
     }
@@ -939,4 +939,8 @@ h3.my-profession
     display: none;
     overflow-y: scroll;
     }
+    about .about-content .personal-info .info-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
 }
