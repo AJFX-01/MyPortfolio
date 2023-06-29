@@ -37,6 +37,43 @@ body
 {
     box-sizing: border-box;
 }
+/* .overlay 
+{
+    position: fixed;
+    top: 5px;
+    left: 20px;
+    right: 20px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background-color: var(--bg-black-100);
+    display: none;
+    overflow-y: scroll;
+} */
+.about .about-content .details
+{
+    background-color: var(--bg-black-100);
+    position: fixed;
+    left: 60%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 90%;
+    border-radius: 8px;
+    padding: 30px;
+    display: none;
+    overflow-y: scroll;
+}
+.about .about-content .details .skills
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.about .about-content .details .skills .skills-item
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
 .section 
 {
     background: var(--bg-black-900);
@@ -849,4 +886,44 @@ h3.my-profession
         padding-left: 100px;
     }
 
+}
+@media (max-width : 490px) 
+{
+    
+    
+    .service.service-item, 
+    .about .about-content .skills,
+    .about .about-content .education,
+    .about .about-content .experience,
+    .about .about-content .personal-info {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-left: 10px;
+    }
+
+    .about .about-content .personal-info .row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-left: -15px;
+        margin-right: -15px;
+        position: relative;
+    }
+
+    .service .service-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .portfolio .portfolio-item
+    {
+        max-width: inherit;
+        padding-left: inherit;
+    }
+    .contact .contact-form .col-6
+    {
+        flex: 0 0 100%;
+        max-width: inherit;
+        padding-left: 10px;
+    }
 }
