@@ -926,7 +926,7 @@ h3.my-profession
         max-width: inherit;
         padding-left: 10px;
     }
-    about .about-content .details {
+    .about .about-content .details {
     background-color: var(--bg-black-100);
     position: fixed;
     left: 60%;
