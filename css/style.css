@@ -939,8 +939,8 @@ h3.my-profession
     display: none;
     overflow-y: scroll;
     }
-    about .about-content .personal-info .info-item {
+    .about .about-content .personal-info .info-item {
     flex: 0 0 100%;
     max-width: 100%;
-}
+    }
 }
