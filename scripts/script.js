@@ -1,10 +1,28 @@
-/*====================================tying animation==================================*/
+const overlay = document.querySelector('.js-overlay');
+const detailsCon = document.querySelector('.js-details');
+const seeMoreBtn = document.querySelector('.see-more');
+const seeLessBtn = document.querySelector('.js-seeless');/*====================================tying animation==================================*/
+
+
+seeMoreBtn.addEventListener('click', function() {
+    seeMoreBtn.style.display = 'none';
+    // overlay.style.display = 'block';
+    detailsCon.style.display = 'block';
+});
+
+seeLessBtn.addEventListener('click', function () {
+    seeMoreBtn.style.display = 'block';
+    // overlay.style.display = 'none';
+    detailsCon.style.display = 'none';
+});
+
 var typed = new Typed(".typing", {
     strings:['','Machine Learning Engineer', 'Software Engineer', 'Data Scientist'],
     typeSpeed:80,
     BackSpeed:60,
     loop:true
 });
+
 
 /*========================================Aside===========================================*/
 const nav = document.querySelector('.nav'),
@@ -82,3 +100,5 @@ const nav = document.querySelector('.nav'),
                allSection[i].classList.toggle('open') 
             }
         }
+
+//  <=======================================Const Overly page=========================================>
