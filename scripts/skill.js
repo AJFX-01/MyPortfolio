@@ -100,7 +100,7 @@ const portFolio = [
 
     {
         imageData: 'images/port55.jpeg',
-        linkBtn: 'https://ajfx-01.github.io/',
+        linkBtn: 'https://ajfx-01.github.io/Food-REcipe-APi/',
     },
 
     {
