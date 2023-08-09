@@ -30,7 +30,7 @@ function renderEducation() {
 }
 
 function renderExperience() {
-    experience.forEach((expe) => {
+    experiences.forEach((expe) => {
         ExperienceHTML += `
         <div class="timeline-item">
             <div class="circle-dot"></div>
