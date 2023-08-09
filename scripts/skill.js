@@ -94,33 +94,33 @@ const skills =  [
 const portFolio = [
     {
         imageData: 'images/port1.jpeg',
-        // linkBtn: '',
+        linkBtn: 'https://ajfx-01.github.io/',
 
     },
 
     {
         imageData: 'images/port55.jpeg',
-        // linkBtn: '',
+        linkBtn: 'https://ajfx-01.github.io/',
     },
 
     {
         imageData: 'images/portt4.jpeg',
-        // linkBtn: '',
+        linkBtn: 'https://ajfx-01.github.io/AmazonClone',
     },
 
     {
         imageData: 'images/portt5.jpeg',
-        // linkBtn: '',
+        linkBtn: 'https://ajfx-01.github.io/Resturant',
     },
 
     {
         imageData: 'images/port7.jpeg',
-        // linkBtn: '',
+        linkBtn: '',
     },
 
     {
         imageData: 'images/porrt1.jpg',
-        // linkBtn: '',
+        linkBtn: '',
     }
 ];
 
