@@ -131,7 +131,7 @@ const portFolio = [
         imageData: 'images/port7.jpeg',
         linkBtn: '',
         desc: 'Landing Page'
-    },
+    }
 ];
 
 const educations = [
