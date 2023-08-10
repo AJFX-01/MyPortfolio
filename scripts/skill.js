@@ -93,6 +93,15 @@ const skills =  [
 
 const portFolio = [
     {
+        imageData: 'images/port7.jpeg',
+        linkBtn: 'https://docs.google.com/presentation/d/155xhDCI8vBPJySYhh7S6U16U4VLYwEugtmwN2SLk33E/edit?usp=sharing',
+    },
+    
+    {
+        imageData: 'images/port7.jpeg',
+        linkBtn: 'https://youtu.be/t-olQFeuQUM',
+    },
+    {
         imageData: 'images/port1.jpeg',
         linkBtn: 'https://ajfx-01.github.io/',
 
