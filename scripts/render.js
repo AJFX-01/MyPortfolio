@@ -101,7 +101,7 @@ function renderPortFolio() {
                 <div class="portfolio-img">
                     <img src="${portf.imageData}" alt="" srcset="">
                 </div>
-                <a href="${portf.linkBtn}">veiw</a>
+                <a href="${portf.linkBtn}">${port.desc}</a>
             </div>
         </div>`
     });
