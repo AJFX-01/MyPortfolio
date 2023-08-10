@@ -93,44 +93,45 @@ const skills =  [
 
 const portFolio = [
     {
-        imageData: 'images/port7.jpeg',
+        imageData: 'images/ALXslide.jpg',
         linkBtn: 'https://docs.google.com/presentation/d/155xhDCI8vBPJySYhh7S6U16U4VLYwEugtmwN2SLk33E/edit?usp=sharing',
+        desc: 'ALX group slide'
     },
     
     {
-        imageData: 'images/port7.jpeg',
+        imageData: 'images/ALX y.jpg',
         linkBtn: 'https://youtu.be/t-olQFeuQUM',
+        desc: 'ALX youtube video'
     },
     {
         imageData: 'images/port1.jpeg',
         linkBtn: 'https://ajfx-01.github.io/',
-
+        desc: 'Pepsi cocola'
     },
 
     {
         imageData: 'images/port55.jpeg',
         linkBtn: 'https://ajfx-01.github.io/Food-REcipe-APi/',
+        desc: 'Get food recipe'
     },
 
     {
         imageData: 'images/portt4.jpeg',
         linkBtn: 'https://ajfx-01.github.io/AmazonClone',
+        desc: 'An Amazonclone'
     },
 
     {
         imageData: 'images/portt5.jpeg',
         linkBtn: 'https://ajfx-01.github.io/Resturant',
+        desc: 'Resturant Landing Page'
     },
 
     {
         imageData: 'images/port7.jpeg',
         linkBtn: '',
+        desc: 'Landing Page'
     },
-
-    {
-        imageData: 'images/porrt1.jpg',
-        linkBtn: '',
-    }
 ];
 
 const educations = [
