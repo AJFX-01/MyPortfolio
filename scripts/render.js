@@ -19,7 +19,7 @@ function renderEducation() {
         <div class="timeline-item">
         <div class="circle-dot"></div>
         <h3 class="timeline-date">
-            <i class="fa fa-calendar"></i>${education.dataData}
+            <i class="fa fa-calendar"></i> ${education.dataData}
         </h3>
         <h4 class="timeline-title">${education.degree}</h4>
         <p class="timeline-text">${education.detailsInfo}</p>   
@@ -35,7 +35,7 @@ function renderExperience() {
         <div class="timeline-item">
             <div class="circle-dot"></div>
             <h3 class="timeline-date">
-                <i class="fa fa-calendar"></i>${expe.dataData}
+                <i class="fa fa-calendar"></i> ${expe.dataData}
             </h3>
             <h4 class="timeline-title">${expe.degree}</h4>
             <p class="timeline-text">${expe.detailsInfo}</p>
