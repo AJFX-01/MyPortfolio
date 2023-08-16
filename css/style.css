@@ -817,8 +817,8 @@ h3.my-profession
 }
 .pitch .elevator video 
 {
-    width: fit;
-    height: 150px;
+    width: 400px;
+    height: 400px;
 }
 @media (max-width:1199px)
 {
