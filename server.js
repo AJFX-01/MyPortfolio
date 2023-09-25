@@ -6,7 +6,7 @@ const nodemailer = require('nodemailer');
 dotenv.config();
 
 const app = express();
-const port = 5000;
+const port = 5030;
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
