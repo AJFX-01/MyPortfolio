@@ -1,33 +1,39 @@
-
-// Getting all form values
-const nname = document.querySelector('.js-name').value;
-const email = document.querySelector('.js-email').value;
-const subject = document.querySelector('.js-subject').value;
-const message = document.querySelector('.js-message').value;
-
-const contactForm = document.querySelector('.contact-form');
+const contactForm = document.querySelector('.js-contact-form');
 
 contactForm.addEventListener('submit', (e) => {
     e.preventDefault();
- 
+
+    // Getting all form values inside the event handler
+    const name = document.querySelector('.js-name').value;
+    const email = document.querySelector('.js-email').value;
+    const subject = document.querySelector('.js-subject').value;
+    const message = document.querySelector('.js-message').value;
+
     const formData = {
-        name: nname,
-        email : email,
-        subject : subject,
-        message : message
-    }
+        name: name,
+        email: email,
+        subject: subject,
+        message: message
+    };
+
     fetch('/contact', {
-        method : 'POST',
-        body: formData
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
     })
     .then(response => response.json())
     .then(data => {
         if (data.success) {
             alert('Message Sent Successfully');
-            formData.reset();
-
+            // Reset form fields
+            document.querySelector('.js-name').value = '';
+            document.querySelector('.js-email').value = '';
+            document.querySelector('.js-subject').value = '';
+            document.querySelector('.js-message').value = '';
         } else {
-            alert('An Error Ocurred. Please try again');
+            alert('An Error Occurred. Please try again');
         }
     })
     .catch(error => {
@@ -35,5 +41,3 @@ contactForm.addEventListener('submit', (e) => {
         alert('An error occurred. Please try again.');
     });
 });
-
-// Send the form dtata to server-side script using AJAX or ftech API
