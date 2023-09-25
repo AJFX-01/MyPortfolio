@@ -1,6 +1,7 @@
 
 
 const express = require('express');
+const req
 const bodyParser = require('body-parser')
 const dotenv= require('dotenv');
 const nodemailer  = require('nodemailer');
@@ -29,13 +30,10 @@ app.post('/contact', (req, res) => {
 
     const mailOptions = {
         from: 'ajayboyayomikun@gmail.com',
-        to: 'opeyemi.ajegbomogun@yahoo.com',
-        subject : 'New Contact Form Submission',
-        text: `
-        Name: ${name}
-        Email : ${email}
-        Subject : ${subject}
-        Message : ${message}`
+        to: email,
+        subject : subject,
+        text: message
+        
     };
 
     transporter.sendMail(mailOptions, (error, info) => {

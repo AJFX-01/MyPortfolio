@@ -1,6 +1,6 @@
 
 // Getting all form values
-const name = document.querySelector('.js-name').value;
+const nname = document.querySelector('.js-name').value;
 const email = document.querySelector('.js-email').value;
 const subject = document.querySelector('.js-subject').value;
 const message = document.querySelector('.js-message').value;
@@ -11,7 +11,7 @@ contactForm.addEventListener('submit', (e) => {
     e.preventDefault();
  
     const formData = {
-        name: name,
+        name: nname,
         email : email,
         subject : subject,
         message : message
