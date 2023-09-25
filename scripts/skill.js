@@ -92,17 +92,7 @@ const skills =  [
 
 
 const portFolio = [
-    {
-        imageData: 'images/ALXslide.jpg',
-        linkBtn: 'https://docs.google.com/presentation/d/155xhDCI8vBPJySYhh7S6U16U4VLYwEugtmwN2SLk33E/edit?usp=sharing',
-        desc: 'ALX group slide'
-    },
-    
-    {
-        imageData: 'images/ALX y.jpg',
-        linkBtn: 'https://youtu.be/t-olQFeuQUM',
-        desc: 'ALX youtube video'
-    },
+   
     {
         imageData: 'images/port1.jpeg',
         linkBtn: 'https://ajfx-01.github.io/',
@@ -127,11 +117,7 @@ const portFolio = [
         desc: 'Resturant Landing Page'
     },
 
-    {
-        imageData: 'images/port7.jpeg',
-        linkBtn: '',
-        desc: 'Landing Page'
-    }
+    
 ];
 
 const educations = [
@@ -154,12 +140,6 @@ const educations = [
         degree: 'Harvard University CS50x'
     },
 
-    
-    // {
-    //     dataData:
-    //     degree:
-    //     detailsInfo:
-    // }
 ];
 
 const services = [
@@ -202,21 +182,17 @@ const services = [
 
 const experiences = [
     {
-        dataData : 'Adain Technologies : May 2023 - Present',
+        dataData : 'Adain Technologies : May 2022 - Present',
         degree: 'Software & Machine Learning Engineering',
         detailsInfo : 'Spearhead the development and implementation of cutting-edge artificial intelligence products,ensuring they align with the company’s vision and objectives.Collaborate closely with cross-functional teams to seamlessly integrate machine learning models into various applications, enhancing their functionalities and performance.Design and engineer sophisticated machine learning algorithms, enabling data-driven decision-making and predictive analytics.Continuously refine and update existing systems, optimizing their efficiency and effectiveness to stay ahead of the ever-evolving AI landscape.Lead research efforts and implement the latest ML algorithms and tools, leveraging industry best practices and emerging technologies to deliver innovative solutions.Develop machine learning applications to meet specific project requirements, conducting rigorous tests and experiments to validate their efficacy. Perform detailed statistical analysis and fine-tuning based on test results, ensuring optimal performance and accuracy of machine learning models. Drive the creation of self-learning applications capable of adaptive behavior, contributing to the company’s pioneering AI initiatives'
     },
 
     {
-        dataData: ' Mira Technologies : Mar 2023 - April 2023',
+        dataData: ' Mira Technologies : Mar 2022 - present',
         degree: 'Software Engineer & Mobile App developer',
         detailsInfo: 'Develop and maintain mobile applications using Flutter and Dart for Android and iOS platforms.Collaborate with a team of designers and developers to implement UI/UX designs and ensure optimal user experiences. Integrate APIs and handle data communication with backend services to support seamless app functionalities.Implement unit tests and conduct code reviews to ensure code quality and maintainability. Led the development of web applications using JavaScript, Node.js, and Python, utilizing React, Node.js, Django, and Flask frameworks. Implemented responsive and dynamic front-end designs to enhance user interactions. Developed RESTful APIs and backend systems to manage and retrieve data from SQL databases. Collaborated closely with cross-functional teams to design, develop, and deploy software solutions. Contributed to process improvements and code optimization, resulting in increased efficiency and reduced response time'
 
     },
-    {
-        dataData: 'Sept 2022 - Oct 2022',
-        detailsInfo: 'CS50x, Harvard University\'s renowned online computer science course, completed.Explored fundamental concepts including algorithms, data structures, web development, and more.Proficient in programming languages such as C, Python, HTML, CSS, and JavaScript.Self-paced learner with a verified certificate of completion.',
-        degree: 'Harvard University CS50x'
-    },
+    
 
 ]
