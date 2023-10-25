@@ -92,20 +92,13 @@ const skills =  [
 
 
 const portFolio = [
-
     
     {
-        imageData: 'images/howtogrow',
+        imageData: 'images/howtogrow.png',
         linkBtn: 'https://nglohitech.com/howtogrow/view/login.php',
         desc: 'How To Grow'
     },
    
-    {
-        imageData: 'images/port1.jpeg',
-        linkBtn: 'https://ajfx-01.github.io/',
-        desc: 'Pepsi cocola'
-    },
-
     {
         imageData: 'images/port55.jpeg',
         linkBtn: 'https://ajfx-01.github.io/Food-REcipe-APi/',
