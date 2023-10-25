@@ -21,7 +21,7 @@ app.post('/contact', (req, res) => {
         auth: {
             user: 'ajayboyayomikun@gmail.com',
             pass: 'jxekwjbbluymbqjd',
-        },
+        }, 
     });
 
     const mailOptions = {
