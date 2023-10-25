@@ -17,7 +17,7 @@ seeLessBtn.addEventListener('click', function () {
 });
 
 var typed = new Typed(".typing", {
-    strings:['','Machine Learning Engineer', 'Software Engineer', 'Data Scientist'],
+    strings:['','Machine Learning Engineer', 'Software Engineer'],
     typeSpeed:80,
     BackSpeed:60,
     loop:true

@@ -92,6 +92,13 @@ const skills =  [
 
 
 const portFolio = [
+
+    
+    {
+        imageData: 'images/howtogrow',
+        linkBtn: 'https://nglohitech.com/howtogrow/view/login.php',
+        desc: 'How To Grow'
+    },
    
     {
         imageData: 'images/port1.jpeg',
