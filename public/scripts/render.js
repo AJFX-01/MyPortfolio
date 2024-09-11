@@ -8,8 +8,8 @@ let portHTML = '';
 
 renderEducation();
 // renderServices();
-renderSkills();
-renderSeeMoreSkills();
+// renderSkills();
+// renderSeeMoreSkills();
 renderExperience();
 renderPortFolio();
 
@@ -62,35 +62,35 @@ function renderExperience() {
 //     })
 // }
 
-function renderSkills() {
-    for (let i = 0; i < 4 && i < skills.length; i++) {
-        skillsHTML += `
-        <div class="skills-item padd-15">
-            <h5>${skills[i].skillName}</h5>
-            <div class="progress">
-                <div class="progress-in" style="width:${skills[i].stylewidth}"></div>
-                <div class="skill-percent">${skills[i].skillPercent}</div>
-            </div>
-        </div>`
-    }
+// function renderSkills() {
+//     for (let i = 0; i < 4 && i < skills.length; i++) {
+//         skillsHTML += `
+//         <div class="skills-item padd-15">
+//             <h5>${skills[i].skillName}</h5>
+//             <div class="progress">
+//                 <div class="progress-in" style="width:${skills[i].stylewidth}"></div>
+//                 <div class="skill-percent">${skills[i].skillPercent}</div>
+//             </div>
+//         </div>`
+//     }
 
-    document.querySelector('.js-skills').innerHTML = skillsHTML;
-}
+//     document.querySelector('.js-skills').innerHTML = skillsHTML;
+// }
 
-function renderSeeMoreSkills() {
-    skills.forEach((skill) => {
-        SeeMoreSkillsHTML += `
-        <div class="skills-item padd-15">
-            <h5>${skill.skillName}</h5>
-            <div class="progress">
-                <div class="progress-in" style="width:${skill.stylewidth}"></div>
-                <div class="skill-percent">${skill.skillPercent}</div>
-            </div>
-        </div>`
-    });
+// function renderSeeMoreSkills() {
+//     skills.forEach((skill) => {
+//         SeeMoreSkillsHTML += `
+//         <div class="skills-item padd-15">
+//             <h5>${skill.skillName}</h5>
+//             <div class="progress">
+//                 <div class="progress-in" style="width:${skill.stylewidth}"></div>
+//                 <div class="skill-percent">${skill.skillPercent}</div>
+//             </div>
+//         </div>`
+//     });
 
-    document.querySelector('.js-seemoreskills').innerHTML = SeeMoreSkillsHTML;
-}
+//     document.querySelector('.js-seemoreskills').innerHTML = SeeMoreSkillsHTML;
+// }
 
 
 function renderPortFolio() {

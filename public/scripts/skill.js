@@ -1,94 +1,94 @@
-const skills =  [
-    {
-        skillName: 'Python',
-        stylewidth : '90%',
-        skillPercent : '90%'
-    },
+// const skills =  [
+//     {
+//         skillName: 'Python',
+//         stylewidth : '90%',
+//         skillPercent : '90%'
+//     },
 
-    {
-        skillName: 'JavaScript',
-        stylewidth : '85%',
-        skillPercent : '85%'
-    },
+//     {
+//         skillName: 'JavaScript',
+//         stylewidth : '85%',
+//         skillPercent : '85%'
+//     },
 
-    {
-        skillName: 'C',
-        stylewidth : '86%',
-        skillPercent : '86%'
-    },
+//     {
+//         skillName: 'C',
+//         stylewidth : '86%',
+//         skillPercent : '86%'
+//     },
 
-    {
-        skillName: 'TensorFlow',
-        stylewidth : '85%',
-        skillPercent : '85%'
-    },
+//     {
+//         skillName: 'TensorFlow',
+//         stylewidth : '85%',
+//         skillPercent : '85%'
+//     },
 
-    {
-        skillName: 'Keras',
-        stylewidth : '90%',
-        skillPercent : '90%'
-    },
+//     {
+//         skillName: 'Keras',
+//         stylewidth : '90%',
+//         skillPercent : '90%'
+//     },
 
-    {
-        skillName: 'NumPy',
-        stylewidth : '90%',
-        skillPercent : '90%'
-    },
+//     {
+//         skillName: 'NumPy',
+//         stylewidth : '90%',
+//         skillPercent : '90%'
+//     },
 
-    {
-        skillName: 'Pandas',
-        stylewidth : '92%',
-        skillPercent : '92%'
-    },
+//     {
+//         skillName: 'Pandas',
+//         stylewidth : '92%',
+//         skillPercent : '92%'
+//     },
 
-    {
-        skillName: 'PyTorch',
-        stylewidth : '80%',
-        skillPercent : '80%'
-    },
+//     {
+//         skillName: 'PyTorch',
+//         stylewidth : '80%',
+//         skillPercent : '80%'
+//     },
 
-    {
-        skillName: 'Flutter/Dart',
-        stylewidth : '76%',
-        skillPercent : '76%'
-    },
+//     {
+//         skillName: 'Flutter/Dart',
+//         stylewidth : '76%',
+//         skillPercent : '76%'
+//     },
 
-    {
-        skillName: 'ReactJS',
-        stylewidth : '80%',
-        skillPercent : '80%'
-    },
+//     {
+//         skillName: 'ReactJS',
+//         stylewidth : '80%',
+//         skillPercent : '80%'
+//     },
 
-    {
-        skillName: 'NodeJS',
-        stylewidth : '80%',
-        skillPercent : '80%'
-    },
+//     {
+//         skillName: 'NodeJS',
+//         stylewidth : '80%',
+//         skillPercent : '80%'
+//     },
 
-    {
-        skillName: 'SQL',
-        stylewidth : '95%',
-        skillPercent : '95%'
-    },
+//     {
+//         skillName: 'SQL',
+//         stylewidth : '95%',
+//         skillPercent : '95%'
+//     },
 
-    {
-        skillName: 'Django',
-        stylewidth : '70%',
-        skillPercent : '70%'
-    },
+//     {
+//         skillName: 'Django',
+//         stylewidth : '70%',
+//         skillPercent : '70%'
+//     },
     
-    {
-        skillName: 'Flask',
-        stylewidth : '82%',
-        skillPercent : '82%'
-    },
+//     {
+//         skillName: 'Flask',
+//         stylewidth : '82%',
+//         skillPercent : '82%'
+//     },
 
-    {
-        skillName: 'HTML/CSS',
-        stylewidth : '90%',
-        skillPercent : '90%'
-    },
-];
+//     {
+//         skillName: 'HTML/CSS',
+//         stylewidth : '90%',
+//         skillPercent : '90%'
+//     },
+// ];
 
 
 const portFolio = [
@@ -142,43 +142,43 @@ const educations = [
 
 ];
 
-const services = [
-    {
-        icond : 'fa fa-laptop-code',
-        title : 'Web Development',
-        deets : 'Fully responsive web development both on the frontend'
-    },
+// const services = [
+//     {
+//         icond : 'fa fa-laptop-code',
+//         title : 'Web Development',
+//         deets : 'Fully responsive web development both on the frontend'
+//     },
 
-    {
-        icond : 'fa fa-database',
-        title : 'Deep Learning',
-        deets : 'Neural Network traning and model traning. supervised and unsupervised machine learning'
-    },
+//     {
+//         icond : 'fa fa-database',
+//         title : 'Deep Learning',
+//         deets : 'Neural Network traning and model traning. supervised and unsupervised machine learning'
+//     },
 
-    {
-        icond : 'fa fa-server',
-        title : 'Machine Learning',
-        deets : 'Cross-platform mobile apps developments, IOs and Andriods'
-    },
+//     {
+//         icond : 'fa fa-server',
+//         title : 'Machine Learning',
+//         deets : 'Cross-platform mobile apps developments, IOs and Andriods'
+//     },
 
-    {
-        icond : 'fa fa-palette',
-        title : 'Data Analysis',
-        deets : 'Big Data cleaning, scrubing'
-    },
+//     {
+//         icond : 'fa fa-palette',
+//         title : 'Data Analysis',
+//         deets : 'Big Data cleaning, scrubing'
+//     },
 
-    {
-        icond : 'fa fa-sitemap',
-        title : 'Data Science',
-        deets : 'Fully responsive web development both on the frontend'
-    },
+//     {
+//         icond : 'fa fa-sitemap',
+//         title : 'Data Science',
+//         deets : 'Fully responsive web development both on the frontend'
+//     },
 
-    {
-        icond : 'fa fa-mobile-alt',
-        title : 'Mobile App Development',
-        deets : 'Fully responsive web development both on the frontend'
-    }
-];
+//     {
+//         icond : 'fa fa-mobile-alt',
+//         title : 'Mobile App Development',
+//         deets : 'Fully responsive web development both on the frontend'
+//     }
+// ];
 
 const experiences = [
     {
