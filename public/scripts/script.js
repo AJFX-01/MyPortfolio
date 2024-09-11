@@ -1,20 +1,20 @@
 const overlay = document.querySelector('.js-overlay');
 const detailsCon = document.querySelector('.js-details');
-const seeMoreBtn = document.querySelector('.see-more');
+// const seeMoreBtn = document.querySelector('.see-more');
 const seeLessBtn = document.querySelector('.js-seeless');/*====================================tying animation==================================*/
 
 
-seeMoreBtn.addEventListener('click', function() {
-    seeMoreBtn.style.display = 'none';
-    // overlay.style.display = 'block';
-    detailsCon.style.display = 'block';
-});
+// seeMoreBtn.addEventListener('click', function() {
+//     seeMoreBtn.style.display = 'none';
+//     // overlay.style.display = 'block';
+//     detailsCon.style.display = 'block';
+// });
 
-seeLessBtn.addEventListener('click', function () {
-    seeMoreBtn.style.display = 'block';
-    // overlay.style.display = 'none';
-    detailsCon.style.display = 'none';
-});
+// seeLessBtn.addEventListener('click', function () {
+//     seeMoreBtn.style.display = 'block';
+//     // overlay.style.display = 'none';
+//     detailsCon.style.display = 'none';
+// });
 
 var typed = new Typed(".typing", {
     strings:['','Software Engineer'],

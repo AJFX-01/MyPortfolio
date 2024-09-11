@@ -184,15 +184,31 @@ const experiences = [
     {
         dataData : 'Adain Technologies : May 2022 - Present',
         degree: 'Software & Machine Learning Engineering',
-        detailsInfo : 'Spearhead the development and implementation of cutting-edge artificial intelligence products,ensuring they align with the company’s vision and objectives.Collaborate closely with cross-functional teams to seamlessly integrate machine learning models into various applications, enhancing their functionalities and performance.Design and engineer sophisticated machine learning algorithms, enabling data-driven decision-making and predictive analytics.Continuously refine and update existing systems, optimizing their efficiency and effectiveness to stay ahead of the ever-evolving AI landscape.Lead research efforts and implement the latest ML algorithms and tools, leveraging industry best practices and emerging technologies to deliver innovative solutions.Develop machine learning applications to meet specific project requirements, conducting rigorous tests and experiments to validate their efficacy. Perform detailed statistical analysis and fine-tuning based on test results, ensuring optimal performance and accuracy of machine learning models. Drive the creation of self-learning applications capable of adaptive behavior, contributing to the company’s pioneering AI initiatives'
+        detailsInfo : `•   Led the design and development of multiple enterprise-level microservice applications of Commerce Experience Group, driving $2 
+     million of revenue every year using the latest technologies of Azure, TypeScript, React, MySQL, Azure Functions, Express, Python, VueJs, Golang,  and Firebase.
+•   Designed and implemented scalable APIs and background workers for managing first- and third-party proprietary licenses using .net 
+     Core, Azure Functions, and other Azure cloud technologies that serve millions of license requests daily.
+•   Led the development of several products E2E, from identifying system requirements and partner dependencies to workload balancing, 
+     software implementation, engineering, testing, and configuring metrics, alarms, monitors, and dashboards.
+•   Enriched system metrics by integrating the platforms with telemetry; facilitated in-depth logging by correlating APIs with vector contexts.
+•   Continuous Integration/Deployment Pipeline Integration, pull requests, code reviews, load/stress testing, unit/integration/e2e testing`
     },
 
     {
         dataData: ' Mira Technologies : Mar 2022 - present',
         degree: 'Software Engineer & Mobile App developer',
-        detailsInfo: 'Develop and maintain mobile applications using Flutter and Dart for Android and iOS platforms.Collaborate with a team of designers and developers to implement UI/UX designs and ensure optimal user experiences. Integrate APIs and handle data communication with backend services to support seamless app functionalities.Implement unit tests and conduct code reviews to ensure code quality and maintainability. Led the development of web applications using JavaScript, Node.js, and Python, utilizing React, Node.js, Django, and Flask frameworks. Implemented responsive and dynamic front-end designs to enhance user interactions. Developed RESTful APIs and backend systems to manage and retrieve data from SQL databases. Collaborated closely with cross-functional teams to design, develop, and deploy software solutions. Contributed to process improvements and code optimization, resulting in increased efficiency and reduced response time'
-
+        detailsInfo: `•   Spearheaded the implementation of Prime's Content Experiment Platforms using JavaScript, React, AngularJS, ROR, AWS, PostgreSQL, Flutter/Dart, Node.js/Express, and PHP-Laravel, enhancing enterprise application capabilities by 40% and saving the company $100,000 annually in maintenance costs.
+•  Architected and developed advanced systems enabling 500+ marketers to conduct optimization experiments seamlessly within the Prime ecosystem, increasing experiment throughput by 30% and driving $1.2 million in additional revenue.
+•  Automated and optimized core marketing experiment logic, including A/B testing, Auto-Targeting, and Multivariate Testing, improving efficiency by 50%, accuracy by 20%, and saving $250,000 annually in operational costs.
+•   Revolutionized the user experience testing process by fully automating it with Nightwatch Selenium, reducing testing time by 70%, increasing test coverage by 60%, and saving over $200,000 annually in testing expenses.`
     },
-    
+    {
+        dataData: "TheHired AI : September 2023 - April 2024",
+        degree: "Software Engineer & AI engineer",
+        detailsInfo : `•  Implemented enterprise full stack web application in JavaScript, TypeScript, React, PHP, Laravel, Vue.js, AngularJS, AWS, PostgreSQL, Node.js/Express.js, and Python, increasing enterprise application capabilities by 40% and saving $250,000 per year in maintenance costs.
+•  Created an innovative chatbot system that allows job seekers to identify openings in AI-based tech businesses, execute optimization experiments within the chatbot, and 
+easily interact with the Open Assistant API, increasing user engagement by 50% and generating $1.5 million in additional income.
+• Using Selenium, I automated scraping tools for platforms such as Indeed and LinkedIn, lowering human scraping efforts by 90%, boosting data gathering efficiency by 70%, and saving $200,000 per year in operational expenditures.`
+    }
 
 ]
