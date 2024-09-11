@@ -7,7 +7,7 @@ let portHTML = '';
 
 
 renderEducation();
-renderServices();
+// renderServices();
 renderSkills();
 renderSeeMoreSkills();
 renderExperience();
@@ -45,22 +45,22 @@ function renderExperience() {
     document.querySelector('.js-expe').innerHTML = ExperienceHTML;
 }
 
-function renderServices() {
-    services.forEach((service) => {
-        servicesHTML += `
-        <div class="service-item padd-15">
-            <div class="service-item-inner">
-                <div class="icon">
-                    <i class="${service.icond}"></i>
-                </div>
-                <h4>${service.title}</h4>
-                <p>${service.deets}</p>
-            </div>
-        </div>`;
+// function renderServices() {
+//     services.forEach((service) => {
+//         servicesHTML += `
+//         <div class="service-item padd-15">
+//             <div class="service-item-inner">
+//                 <div class="icon">
+//                     <i class="${service.icond}"></i>
+//                 </div>
+//                 <h4>${service.title}</h4>
+//                 <p>${service.deets}</p>
+//             </div>
+//         </div>`;
 
-        document.querySelector('.js-services').innerHTML = servicesHTML; 
-    })
-}
+//         document.querySelector('.js-services').innerHTML = servicesHTML; 
+//     })
+// }
 
 function renderSkills() {
     for (let i = 0; i < 4 && i < skills.length; i++) {
