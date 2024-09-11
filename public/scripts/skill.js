@@ -92,7 +92,17 @@
 
 
 const portFolio = [
-    
+
+    {
+        imageData: 'images/hems.png',
+        linkBtn: 'https://hems.com.ng/hems/view/login',
+        desc: 'HEMS'
+    },
+    {
+        imageData: 'images/ehr.png',
+        linkBtn: 'https://ajfx-01.github.io/E-commerce/',
+        desc: 'RockGarden EHR'
+    },
     {
         imageData: 'images/howtogrow.png',
         linkBtn: 'https://nglohitech.com/howtogrow/view/login.php',
@@ -105,19 +115,6 @@ const portFolio = [
         desc: 'Get food recipe'
     },
 
-    {
-        imageData: 'images/portt4.jpeg',
-        linkBtn: 'https://ajfx-01.github.io/AmazonClone',
-        desc: 'An Amazonclone'
-    },
-
-    {
-        imageData: 'images/portt5.jpeg',
-        linkBtn: 'https://ajfx-01.github.io/Resturant',
-        desc: 'Resturant Landing Page'
-    },
-
-    
 ];
 
 const educations = [
